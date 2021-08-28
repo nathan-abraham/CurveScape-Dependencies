@@ -1,0 +1,10 @@
+^C:\CPP_LIBS\SFML_SOURCE\SFML-BUILD\CMAKEFILES\9247A35E6362C0B21761E66E5AE8E43E\GENERATE.STAMP.RULE
+setlocal
+C:\cmake-3.20.0-windows-x86_64\bin\cmake.exe -SC:/CPP_libs/SFML_source/SFML-2.5.1 -BC:/CPP_libs/SFML_source/SFML-build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/CPP_libs/SFML_source/SFML-build/SFML.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
