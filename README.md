@@ -1,6 +1,6 @@
 # CurveScape Dependencies
 
-This repository contains the built libraries used by (CurveScape)[https://github.com/nathan-abraham/CurveScape].
+This repository contains the built libraries used by [CurveScape](https://github.com/nathan-abraham/CurveScape).
 
 ## Specifications
 All libraries are built statically (static linking) for the Visual Studio 2019 C++ compiler.
