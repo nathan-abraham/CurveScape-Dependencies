@@ -8,10 +8,6 @@
 *.gch
 *.pch
 # Libraries
-*.lib
-*.a
-*.la
-*.lo
 # Shared objects (inc. Windows DLLs)
 *.dll
 *.so
@@ -35,14 +31,6 @@
 # User-specific folders
 *.sln.ide/
 # Build results
-[Dd]ebug/
-[Dd]ebugPublic/
-[Rr]elease/
-[Rr]eleases/
-x64/
-x86/
-bld/
-[Bb]in/
 [Oo]bj/
 # Roslyn cache directories
 *.ide/
